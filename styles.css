@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 a {
@@ -11,6 +11,9 @@ a {
 
 .header, .footer {
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* HEADER SECTION */
@@ -19,13 +22,16 @@ a {
     color: #f9faf8;
     font-size: 24px;
     margin-top: 0;
-    padding: 16px;
+    margin-bottom: 100px;
+    padding: 16px 0;
+    flex: 1;
 }
 
 #hero-main-text {
     font-size: 48px;
     font-weight: 700;
     color: #f9faf8;
+    margin: 0;
 }
 
 .link-texts, #hero-secondary-text {
@@ -45,6 +51,34 @@ a {
     padding: 8px 32px;
     border-radius: 10px;
     border: 0;
+}
+
+.header-top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 30rem;
+}
+
+.header-top ul {
+    display: flex;
+    gap: 1em;
+}
+.header-bottom {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.hero-section {
+    flex: 1;
+}
+
+.header-bottom img {
+    margin-left: 27px;
+    margin-bottom: 100px;
 }
 
 /* END OF HEADER SECTION */
