@@ -156,12 +156,17 @@ a {
 
 /* SIGNUP SECTION*/
 
-.signup {
+.signup-section{
     background-color: #3882f6;
     margin: 24px auto;
     padding: 32px;
     color: #f9faf8;
-    width: 800px;
+    width: 50%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4em;
 }
 
 .signup button {
@@ -170,6 +175,15 @@ a {
     padding: 8px 32px;
     border-radius: 10px;
     border: 1px solid #f9faf8; 
+    font-weight: bold;
+}
+
+.left p {
+    font-weight: lighter;
+    margin: 8px;
+}
+
+#action-text {
     font-weight: bold;
 }
 
