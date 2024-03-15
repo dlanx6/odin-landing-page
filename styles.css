@@ -16,6 +16,8 @@ a {
 #header-logo {
     color: #f9faf8;
     font-size: 24px;
+    margin-top: 0;
+    padding: 16px;
 }
 
 #hero-main-text {
