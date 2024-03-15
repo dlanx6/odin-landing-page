@@ -106,6 +106,13 @@ a {
 
 /* FOOTER SECTION */
 
+.footer {
+    margin: 0;
+    padding: 16px;
+}
 
+.footer p {
+    color: #f9faf8;
+}
 
 /* END OF FOOTER SECTION */
