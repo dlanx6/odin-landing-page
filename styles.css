@@ -39,6 +39,7 @@ a {
 
 .button {
     font-size: 18px;
+    font-weight: bold;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 8px 32px;
@@ -80,16 +81,31 @@ a {
     font-weight: 700;
 }
 
-/* QUOTE SECTION */
+/* END OF QUOTE SECTION */
 
 /* SIGNUP SECTION*/
 
+.signup {
+    background-color: #3882f6;
+    margin: 24px auto;
+    padding: 32px;
+    color: #f9faf8;
+    width: 800px;
+}
 
+.signup button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: 1px solid #f9faf8; 
+    font-weight: bold;
+}
 
-/* SIGNUP SECTION*/
+/* END OF SIGNUP SECTION*/
 
 /* FOOTER SECTION */
 
 
 
-/* FOOTER SECTION */
+/* END OF FOOTER SECTION */
