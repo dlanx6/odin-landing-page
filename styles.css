@@ -13,6 +13,8 @@ a {
     background-color: #1f2937;
 }
 
+/* HEADER SECTION */
+
 #header-logo {
     color: #f9faf8;
     font-size: 24px;
@@ -22,7 +24,7 @@ a {
 
 #hero-main-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
     color: #f9faf8;
 }
 
@@ -43,3 +45,15 @@ a {
     border-radius: 10px;
     border: 0;
 }
+
+/* END OF HEADER SECTION */
+
+/* INFORMATION SECTION */
+
+#information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+/* END OF INFORMATION SECTION */
