@@ -56,6 +56,11 @@ a {
     font-weight: 700;
 }
 
+.images img {
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+}
+
 /* END OF INFORMATION SECTION */
 
 /* QUOTE SECTION */
@@ -74,4 +79,17 @@ a {
 #thor {
     font-weight: 700;
 }
+
 /* QUOTE SECTION */
+
+/* SIGNUP SECTION*/
+
+
+
+/* SIGNUP SECTION*/
+
+/* FOOTER SECTION */
+
+
+
+/* FOOTER SECTION */
